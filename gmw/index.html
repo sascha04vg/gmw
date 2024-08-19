@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon-16x16.png"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Glück mit Wumms</title>
+  </head>
+  <body>
+    <div id="treble__overlay">
+      <svg
+        id="trebleClef"
+        height="70px"
+        width="60px"
+        version="1.1"
+        id="Capa_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 207.346 207.346"
+        xml:space="preserve"
+      >
+        <g>
+          <g>
+            <path
+              id="treblePath"
+              d="M118.215,84.333c-1.077,0-2.162,0.118-3.242,0.175c-0.1-2.151-0.218-4.524-0.351-7.09l-0.054-0.902
+                     c-0.107-1.922-0.208-3.98-0.308-6.077c16.044-1.857,35.853-4.216,45.172-14.705c4.574-5.143,6.263-12.701,4.767-21.28
+                     c-2.212-12.762-10.901-25.571-21.158-31.154c-10.311-4.985-18.886-4.305-24.837,1.915c-10.318,10.805-10.976,36.093-10.017,60.067
+                     c-2.92,0.358-5.479,0.719-7.852,1.145C69.257,73.092,51.749,83.023,45.26,97.682c-5.082,11.481-2.834,25.61,6.671,41.973
+                     c11.907,21.931,34.171,36.29,57.161,37.123c-5.2,23.47-13.922,24.741-37.707,24.741h-0.812v5.826h0.812
+                     c24.483,0,37.549-1.356,43.712-30.656v-0.011c20.861-1.539,44.281-16.295,45.076-53.826c0.283-11.313-3.471-20.897-10.851-27.693
+                     C141.854,88.27,130.516,84.333,118.215,84.333z M122.424,9.242c2.215-2.316,4.842-3.436,8.035-3.436
+                     c2.885,0,6.234,0.902,9.917,2.677c8.575,4.681,16.18,16.019,18.084,26.974c1.188,6.789-0.014,12.615-3.375,16.398
+                     c-7.77,8.743-26.025,11.001-41.085,12.751C113.237,45.145,113.37,18.715,122.424,9.242z M108.452,71.124
+                     c0.089,1.915,0.193,3.797,0.286,5.569l0.025,0.494c0.15,2.885,0.29,5.544,0.39,7.909c-14.172,2.197-25.718,9.198-30.449,18.76
+                     c-2.827,5.723-4.624,15.128,2.859,27.478l0.419,0.684l4.985-3.028l-0.419-0.694c-4.899-8.085-5.776-15.439-2.609-21.852
+                     c3.811-7.709,13.385-13.464,25.36-15.479c0.018,5.794,0.251,13.535,0.519,22.493c0.576,19.24,1.278,42.9,0.043,57.516
+                     c-21.126-0.487-41.762-13.764-52.842-34.174c-8.546-14.713-10.701-27.078-6.42-36.762c5.594-12.626,22.25-21.749,50.877-27.886
+                     C103.528,71.775,105.822,71.449,108.452,71.124z M115.717,170.795c1.195-15.006,0.505-38.408-0.075-57.512
+                     c-0.276-9.19-0.512-17.136-0.512-22.887c0-0.014,0-0.043,0-0.068c1.034-0.057,2.072-0.168,3.099-0.168
+                     c10.837,0,20.729,3.378,27.131,9.28c6.202,5.701,9.223,13.539,8.979,23.28C153.642,155.688,134.513,169.034,115.717,170.795z"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src = "assets/img/logo.png";/>  
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Über Uns</a>
+            </li>
+            <li class="nav__item">
+              <a href="#gallery" class="nav__link">Galerie</a>
+            </li>
+            <li class="nav__item">
+              <a href="#place" class="nav__link">Kontakt</a>
+            </li>
+            <li class="nav__item">
+              <a href="https://www.dropbox.com/scl/fo/9uev6ck4rziw9mkcmrc3v/AJIhyaoVU3hGnTvpm1XVTZc?rlkey=wvylg6atdumzyoi1uczct8hbi&e=1&dl=0 
+              " target="_blank" rel="noopener noreferrer" class="nav__link">Downloads</a>
+            </li>
+          </ul>
+
+          <div class="nav__dark">
+            <!-- Theme change button -->
+            <span class="change-theme-name">Dark mode</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="cover__photo">
+          <img src="assets/img/hero.JPG" alt="" class="home__img" />
+          <div class="vignette"></div>
+        </div>
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__data-title">
+              Quetsch <br />
+              Bumm <b>Trallala <br /></b>
+            </h1>
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://www.facebook.com/glueckmitwumms"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/glueckmitwumms"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-instagram-fill"></i>
+            </a>
+          </div>
+
+          <div class="home__info">
+            <div>
+              <span class="home__info-title"
+                >Wir freuen uns darauf, von euch zu hören.</span
+              >
+              <a
+                href="#contact"
+                class="button button--flex button--link home__info-button"
+              >
+                Kontakt <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+
+            <div class="home__info-overlay">
+              <img
+                src="assets/img/contact_j.jpg"
+                alt=""
+                class="home__info-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Das <br />
+              sind wir
+            </h2>
+            <p class="about__description">
+
+              Bernd zieht am <b>Akkordeon</b>, Jürgen haut die <b>Drums</b>. Wir unterhalten mit Musik aus fünf Jahrzehnten, <b>handgemacht</b>. 
+              Als dynamisches <b>Duo</b> entführen wir unser Publikum auf eine akustische Reise durch <b>unzählige Musikrichtungen</b>. 
+              Unser Stil ist modern, lebhaft und voller <b>Leidenschaft</b>. 
+              Von traditionellen Volksliedern über <b>Schlager</b>, <b>Rock</b> und <b>Party-Hits</b> bis hin zu modernen Klassikern – 
+              wir geben jedem Song einen einzigartigen Twist, der nur mit Akkordeon und Schlagzeug möglich ist. 
+              Glück mit Wumms Auftritte sind sind ein <b>Tastenfeuerwerk</b>, das jeden Zuhörer mitreißt. 
+              Wir feiern das Akkordeon mit seiner überraschenden Vielfalt, dazu <b>groovige</b> Drums und zweistimmiger Gesang. 
+              Oder wie wir es nennen: <b>Quetsch</b> - <b>Bumm</b> - <b>Trallala</b>.  
+              Ob bei Festen, Fasnet, Firmenevents oder bei privaten Veranstaltungen wie Geburtstage, Hochzeiten und Jubiläen, wir bringen <b>Spaß und Unterhaltung</b> zu euch. 
+              Erlebt mit <b>Glück mit Wumms</b> musikalische Momente, die ihr noch lange in Erinnerung behalten werdet. 
+              Wir sind nicht nur ein Duo, wir sind ein <b>Erlebnis</b>, das ihr nicht verpassen dürft. 
+              Also kommt zu unseren nächsten Auftritten oder bucht uns für euren nächsten Event.
+            </p>
+            <a href="#gallery" class="button">Galerie</a>
+          </div>
+
+          <div class="about__img">
+            <div class="about__img-overlay">
+              <img src="assets/img/gmw.jpg" alt="" class="about__img-one" />
+            </div>
+
+            <div class="about__img-overlay">
+              <img
+                src="assets/img/jurgen+bernd.png"
+                alt=""
+                class="about__img-two"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CAROUSEL ====================-->
+      <section class="gallery section" id="gallery">
+        <h2 class="section__title">Ein Blick in unsere <br />Welt.</h2>
+        <div class="carousel">
+          <div class="carousel__container">
+            <div
+              class="carousel__slide"
+              style="background-image: url('assets/img/gallery1.jpg')"
+            ></div>
+            <div
+              class="carousel__slide"
+              style="background-image: url('assets/img/gallery2.jpg')"
+            ></div>
+            <div
+              class="carousel__slide"
+              style="background-image: url('assets/img/gallery3.jpg')"
+            ></div>
+            <div
+              class="carousel__slide"
+              style="background-image: url('assets/img/gallery4.jpg')"
+            ></div>
+          </div>
+          <a class="carousel__prev" onclick="moveSlide(-1)">❮</a>
+          <a class="carousel__next" onclick="moveSlide(1)">❯</a>
+        </div>
+      </section>
+
+      <!--==================== EXPERIENCE ====================-->
+      <section class="experience section">
+        <h2 class="section__title">
+            Von traditionellen Volksliedern <br /> bis hin zu
+            modernen Klassikern.
+        </h2>
+
+        <div class="experience__container container grid">
+          <div class="experience__content grid">
+            <div class="experience__data">
+              <h2 class="experience__number">2</h2>
+              <span class="experience__description"
+                >Musiker</span
+              >
+            </div>
+
+            <div class="experience__data">
+              <h2 class="experience__number">5</h2>
+              <span class="experience__description"
+                >Jahrzehnte</span
+              >
+            </div>
+
+            <div class="experience__data">
+              <h2 class="experience__number">Vielfalt</h2>
+              <span class="experience__description"
+                >von Melodien</span
+              >
+            </div>
+          </div>
+
+          <div class="experience__img grid">
+            <div class="experience__overlay">
+              <img
+                src="assets/img/rear_view.jpg"
+                alt=""
+                class="experience__img-one"
+              />
+            </div>
+
+            <div class="experience__overlay">
+              <img
+                src="assets/img/b+w.jpg"
+                alt=""
+                class="experience__img-two"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== VIDEO ====================-->
+      <section class="video section">
+        <h2 class="section__title">Eine exklusive Hörprobe</h2>
+
+        <div class="video__container container">
+          <p class="video__description">
+            Erlebt unseren unverwechselbaren Sound hautnah! Genießet eine
+            Kostprobe unserer leidenschaftlichen und dynamischen Musik. Lasst
+            euch von jedem Ton mitreißen!
+          </p>
+
+          <div class="video__content">
+            <video id="video-file">
+              <source src="assets/video/probe.mov" type="video/mp4" />
+            </video>
+
+            <button class="button button--flex video__button" id="video-button">
+              <i class="ri-play-line video__button-icon" id="video-icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Tour ====================-->
+      <section class="tour-dates">
+        <h2>Termine</h2>
+        <div class="tour-container">
+            <div class="tour-date">
+                <div class="date">
+                    <span class="day">24</span>
+                    <span class="month-year">AUG 2024</span>
+                    <span class="time">19:30 Uhr</span>
+                </div>
+                <div class="location">
+                    <h3 class="venue">Straßenmusiksamstag Open Air</h3>
+                    <p class="city">78199 Bräunlingen</p>
+                    <p class="details">Bei der Gauchenzunft, Dekan-Metz-Str. a.d. Volksbank</p>
+                </div>
+            </div>
+    
+            <div class="tour-date">
+                <div class="date">
+                    <span class="day">25</span>
+                    <span class="month-year">AUG 2024</span>
+                    <span class="time">12:00, 14:00, 16:00, 18:00 Uhr</span>
+                </div>
+                <div class="location">
+                    <h3 class="venue">Straßenmusiksonntag Open Air</h3>
+                    <p class="city">78199 Bräunlingen</p>
+                    <p class="details">Blaumeerstraße</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!--==================== contact ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Meldet euch</h2>
+
+        <div class="contact__container container grid">
+          <!--==================== contact CARD ====================-->
+          <div class="contact__card">
+            <img
+              src="assets/img/kontakt.jpg"
+              alt="Bernd & Jürgen"
+              class="contact__img"
+            />
+
+            <div class="contact__content">
+              <div class="contact__data">
+                <h3 class="contact__title">Glück mit Wumms</h3>
+                <span class="contact__subtitle">Quetsch - Bumm - Trallala</span>
+                <p>
+                  Email:
+                  <a href="mailto:berndglueck@t-online.de" class="nav__link"
+                    >berndglueck@t-online.de</a
+                  >
+                </p>
+                <p>
+                  Telefon:
+                  <a href="tel:+491729901600" class="nav__link"
+                    >+49 172 990 16 00</a
+                  >
+                </p>
+                <div class="contact__socials">
+                  <a
+                    href="https://www.facebook.com/glueckmitwumms"
+                    target="_blank"
+                    class="home__social-link"
+                  >
+                    <i class="ri-facebook-box-fill"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/glueckmitwumms"
+                    target="_blank"
+                    class="home__social-link"
+                  >
+                    <i class="ri-instagram-fill"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--==================== SUBSCRIBE ====================-->
+      <section class="subscribe section">
+        <div class="subscribe__bg">
+          <div class="subscribe__container container">
+            <h2 class="section__title subscribe__title">
+                Newsletter             
+            </h2>
+
+            <form action="" class="subscribe__form">
+              <input
+                type="text"
+                placeholder="Email"
+                class="subscribe__input"
+              />
+
+              <button class="button">Abonnieren</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h3 class="footer__title">Glück mit Wumms</h3>
+            <p class="footer__description">
+              Klangwelten, die bewegen – <br />
+              mit jedem Ton <br />
+              ein Stück Freude.
+            </p>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Wir</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="#about" class="footer__link">Über uns</a>
+              </li>
+              <li class="footer__item">
+                <a href="#gallery" class="footer__link">Galerie</a>
+              </li>
+              <li class="footer__item">
+                <a href="#contact" class="footer__link">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Social</h3>
+            <ul>
+              <li class="footer__item">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="footer__social"
+                >
+                  <i class="ri-facebook-box-fill"></i>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="footer__social"
+                >
+                  <i class="ri-instagram-fill"></i>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                  class="footer__social"
+                >
+                  <i class="ri-youtube-fill"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__data">
+            <h3 class="footer__subtitle">Links</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="https://www.jetelina.de/" target="_blank" class="footer__link">www.jetelina.de</a>
+              </li>
+            </ul>
+          </div>
+
+        <div class="footer__rights">
+          <p class="footer__copy">
+            © 2024 Glück mit Wumms. All rights reserved.
+          </p>
+        </div>          
+        <div class="footer__terms">
+            <a href="/gmw/impressum.html" target="_blank" class="footer__terms-link">Impressum</a>
+            <a href="/gmw/data.html" target="_blank" class="footer__terms-link">Datenschutz</a>
+            <a href=""></a>
+          </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
