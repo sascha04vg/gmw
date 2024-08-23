@@ -87,10 +87,14 @@ function showSlides(n) {
     slides[slideIndex].style.display = "block";
     // Update the transform for smooth sliding
     document.querySelector('.carousel__container').style.transform = `translateX(-${slideIndex * 100}%)`;
+    // set translateX back to 0 after sliding after 0.4 seconds
+    
+    document.querySelector('.carousel__container').style.transform = `translateX(0%)`;
+    
 }
 
 
-/*==================== VIDEO ====================*/
+/*==================== VIDEO ====================
 const videoFile = document.getElementById('video-file'),
       videoButton = document.getElementById('video-button'),
       videoIcon = document.getElementById('video-icon')
@@ -120,7 +124,7 @@ function finalVideo(){
     videoIcon.classList.add('ri-play-line')
 }
 // ended, when the video ends
-videoFile.addEventListener('ended', finalVideo)
+videoFile.addEventListener('ended', finalVideo) */
 
 
 /*==================== SHOW SCROLL UP ====================*/ 

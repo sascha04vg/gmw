@@ -1208,4 +1208,7 @@ input {
       width: 80%;
       margin-bottom: 20px;
   }
+  .home__data-title {
+    transform: translateY(-100px);
+  }
 }
